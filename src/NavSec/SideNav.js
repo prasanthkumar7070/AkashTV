@@ -19,7 +19,7 @@ const SideNav = () => {
         </div>
         <div className='menu-links'>
           <i className='bx bxs-notepad'></i>
-          <h5>program guid</h5>
+          <h5>Program guide</h5>
         </div>
         <div className='menu-links'>
           <i className='bx bx-play-circle'></i>

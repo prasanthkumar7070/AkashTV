@@ -2,7 +2,8 @@ import './App.css';
 import TopNav from './NavSec/TopNav';
 import SideNav from './NavSec/SideNav';
 import ProfileTabs from './Mypage/ProfileTabs';
-import Footer from './Components/Footer';
+import Footer from './Footer/Footer';
+import Tabs from './Components/Tabs';
 import Carousel from './Carousel'
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
     <div>
       <TopNav />
       <SideNav />
-      {/* <Carousel/> */}
-      <ProfileTabs />
+      <Carousel/>
+      <Tabs/>
+      {/* <ProfileTabs /> */}
       <Footer />
     </div>
   );

@@ -17,7 +17,7 @@ const Subscribe = () => {
                     <option value='one'>Connection 2</option>
                     <option value='one'>Connection 3</option>
                 </select>
-                <div className='row connections'>
+                <div className='row connections mb-3'>
                     <div className='col-md-3 col-sm-4 col-xs-12 connect dth-log'>
                         <div className='d-flex justify-content-between rig-clm'>
                             <h1>Connetion 1</h1>

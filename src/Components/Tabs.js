@@ -1,7 +1,7 @@
 import React from 'react'
 import './Tabs.css';
 import TabOne from './TabOne';
-import './MediaQuery.css'
+// import './MediaQuery.css'
 const Tabs = () => {
     return (
         <div className='container'>

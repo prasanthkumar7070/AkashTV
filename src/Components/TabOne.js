@@ -1,6 +1,6 @@
 import React from 'react'
 import './Tabs.css'
-import './MediaQuery.css'
+// import './MediaQuery.css'
 const TabOne = () => {
     return (
         <div className='carousel'>
