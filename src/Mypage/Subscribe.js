@@ -105,47 +105,6 @@ const Subscribe = () => {
                                         <img src='../assets/images/10.png' alt='img' />
                                     </div>
                                 </div>
-
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/1.png' alt='img' />
-                                    </div>
-                                </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/2.png' alt='img' />
-                                    </div>
-                                </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/1.png' alt='img' />
-                                    </div>
-                                </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/2.png' alt='img' />
-                                    </div>
-                                </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/1.png' alt='img' />
-                                    </div>
-                                </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/8.png' alt='img' />
-                                    </div>
-                                </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/4.png' alt='img' />
-                                    </div>
-                                </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
-                                    <div className='channel-log'>
-                                        <img src='../assets/images/1.png' alt='img' />
-                                    </div>
-                                </div>
                                 <div className='col-md-1 col-sm-3 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/5.png' alt='img' />
@@ -320,7 +279,7 @@ const Subscribe = () => {
                         <span id="loadMore" className="noContent">
                             <div className='view-more'>
                                 <a href='d'>FAQ & Tutorial</a>
-                                <p>View more</p>
+                                <p>View more<i className='bx bx-chevron-right'></i></p>
                             </div>
                         </span>
                     )}
