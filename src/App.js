@@ -3,20 +3,23 @@ import TopNav from './NavSec/TopNav';
 import SideNav from './NavSec/SideNav';
 import ProfileTabs from './Mypage/ProfileTabs';
 import Footer from './Footer/Footer';
-// import Tabs from './Components/Tabs';
-// import Carousel from './Carousel'
-// import Map from './Components/Map';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div>
-      <TopNav />
+  <BrowserRouter>
+  <TopNav />
+  <Routes>
+         <Route path='/' element={  <Home />} />
+        <Route path='/profile' element={  <ProfileTabs />} />
+      </Routes>
       <SideNav />
-      {/* <Carousel/>
-      <Tabs/>
-      <Map/> */}
-      <ProfileTabs />
+     
+      {/**/}
       <Footer />
+  </BrowserRouter>
     </div>
   );
 }

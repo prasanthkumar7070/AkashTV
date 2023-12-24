@@ -72,12 +72,16 @@ div.item {
 .item input:checked {
     height: 500px !important;
 }
-
+.show a{
+    list-style: none;
+    text-decoration: none!important;
+    color: black;
+}
 .carousel input {
     position: relative;
     left: 50%;
     top: 75%;
-    z-index: 9999;
+    z-index: 1;
    cursor: pointer;
 }
 

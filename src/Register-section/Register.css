@@ -1,0 +1,232 @@
+
+
+.main-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.815);
+    z-index: 999999;
+    font-family: "Roboto";
+}
+
+.middle-container{
+    width: 800px;
+    height: 450px;
+    background-color: #151B56;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    position:relative;
+    border-radius: 10px;
+    padding:0 ;
+}
+
+.tint-color{
+    position: absolute;
+    top: 0;
+  background: transparent linear-gradient(270deg,  #151B56 55%, #04118624 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100%;
+}
+
+.scroll {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 16px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-top: -15px;
+    margin-bottom: 18px;
+  }
+  
+  .orb {
+    width: 115px;
+    height: 170px;
+    background: #999;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 10px;
+  }
+  .orb img{
+    width:100%;
+    height: 100%;
+ border-radius: 10px;
+  }
+  
+  /* Animation Class */
+  /* left-side-slides */
+  .scroll-wrapper {
+    display: flex;
+    -webkit-animation: marquee 50s linear infinite;
+    animation: marquee 50s linear infinite;
+  }
+  
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .scroll-wrapper-right {
+    display: flex;
+    -webkit-animation: marquee-right 50s linear infinite;
+    animation: marquee-right 50s linear infinite;
+  }
+  
+  @-webkit-keyframes marquee-right {
+    0% {
+      transform: translateX(-100);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  
+  /* form-section */
+  .form-section{
+    width: 410px;
+    height: 100vh;
+    border-radius: 0 10px 0 10px;
+    background-color: #151B56;
+    float: right;
+  }
+
+  .form-items{
+    position: relative;
+    padding: 10px 25px;
+  }
+
+  .form-items h4{
+   color: #fff;
+   padding:25px 0 0px 0; 
+   font-size: 19px;
+ }
+ .fields label{
+    color: #ffffffd5;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: lighter;
+ }
+ .fields{
+    margin: 18px 0;
+    display: block;
+    position: relative;
+ }
+ .fields input[type="text"]{
+    width: 100%;
+    padding: 6px 12px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid rgb(170, 170, 170);
+    color: #fff;
+ }
+ .inline{
+    display:flex;
+    justify-content: space-between;
+ }
+
+ .inline span{
+    color: #ffffffd6;
+    font-size: 16px;
+    font-family: "Roboto Regular";
+ }
+ .inline input{
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
+    font-family: "Roboto Regular";
+ }
+
+ .inline a{
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    color: #64ADFF;
+ }
+ .inline li{
+    list-style: none;
+ }
+
+ .fields button{
+    width: 100%;
+    padding: 6px 12px;
+    background: transparent linear-gradient(180deg, #489CF2 0%, #0076FE 51%, #4895F6 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF29;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+ }
+
+ .line{
+    height: 4px;
+    background: transparent linear-gradient(90deg, #D75E5F 0%, #B15095 35%, #3276F4 67%, #2285FA 100%) 0% 0% no-repeat padding-box;
+    width: 165px;
+    border-radius: 50px;
+ }
+
+ .fields p{
+    color: #fff;
+    margin-top: 0px;
+    padding: 0 5px;
+    font-family: "Roboto Regular";
+    font-size: 20px;
+ }
+.cancel{
+    position: absolute;
+    right: 20px;
+}
+.cancel i{
+    color: #ffffffac;
+    font-size: 28px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.dont-account{
+  margin-top: -20px;
+  text-align: center;
+}
+.dont-account p{
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.dont-account a{
+  text-decoration: none;
+  color: #64ADFF;
+  font-size: 16px
+}
+
+.fields i{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  color: #ffffff5f;
+  font-size: 18px;
+}
