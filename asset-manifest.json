@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AkashDTHlink/static/css/main.88b00666.css",
+    "main.js": "/AkashDTHlink/static/js/main.fa335c76.js",
+    "static/js/787.8d163c48.chunk.js": "/AkashDTHlink/static/js/787.8d163c48.chunk.js",
+    "static/media/bg.png": "/AkashDTHlink/static/media/bg.6365a21e2b9043c53ed7.png",
+    "index.html": "/AkashDTHlink/index.html",
+    "main.88b00666.css.map": "/AkashDTHlink/static/css/main.88b00666.css.map",
+    "main.fa335c76.js.map": "/AkashDTHlink/static/js/main.fa335c76.js.map",
+    "787.8d163c48.chunk.js.map": "/AkashDTHlink/static/js/787.8d163c48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88b00666.css",
+    "static/js/main.fa335c76.js"
+  ]
+}
