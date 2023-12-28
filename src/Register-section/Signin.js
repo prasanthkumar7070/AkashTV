@@ -2,8 +2,7 @@ import React from 'react'
 import './Register.css'
 import './Mediaquery.css'
 import { Link } from 'react-router-dom'
-
-const Login = () => {
+const Signin = () => {
   return (
     <div className='main-container'>
       <div className='middle-container'>
@@ -166,7 +165,7 @@ const Login = () => {
           </div>
           <div className='form-section'>
             <div className='form-items'>
-              <h4>Login or SignUp to continue</h4>
+              <h4>SignUp or Login to continue</h4>
               <div className='fields'>
                 <label>Subscription Id</label>
                 <input type='text' placeholder='Enter Your Subscription Id' />
@@ -174,23 +173,11 @@ const Login = () => {
               </div>
 
               <div className='fields'>
-                <label>PIN</label>
-                <input type='text' placeholder='Enter Your PIN' />
-                <i className='bx bx-low-vision'></i>
+                <label>RMN (Register Mobile Number)</label>
+                <input type='text' placeholder='Enter RMN' />
+                <i className='bx bx-mobile'></i>
               </div>
 
-              <div className='fields inline'>
-                <div>
-                  <input type='checkbox' /><span>Remember Me</span>
-                </div>
-                <div>
-                  <li>
-                    <Link to={'/otp'}>
-                      Forgot Your PIN?
-                    </Link>
-                  </li>
-                </div>
-              </div>
               <div className='fields'>
                 <button>Login</button>
               </div>
@@ -201,15 +188,14 @@ const Login = () => {
                 <hr className='line' />
               </div>
               <div className='dont-account'>
-                <p>Don`t have an account? <Link to={'/signin'}>SignUp</Link></p>
+                <p>Don`t have an account?<Link to={'/login'}>Login</Link></p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   )
 }
 
-export default Login
+export default Signin

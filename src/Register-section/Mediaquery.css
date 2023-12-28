@@ -1,0 +1,192 @@
+@media only screen and (max-width: 768px) {
+    .middle-container {
+         width: 670px!important;
+         height: 445px;
+         left: 49%;
+    }
+    .form-section {
+        width: 360px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .middle-container {
+         width: 380px!important;
+         height: 445px;
+         left: 49%;
+    }
+    .form-section {
+        margin-top: 15px;
+        width: 250px;
+        position: absolute;
+        right: 10rem;
+    }
+    .form-items h4{
+        font-size: 14px;
+        margin-top: 0;
+        top:0;
+    }
+    .cancel i{
+        font-size: 20px;
+    }
+    .cancel{
+        position: absolute;
+        right: 10px;
+    }
+    .fields label{
+        font-size: 14px;
+    }
+    .fields input{
+        padding: 6px 6px;
+        font-size: 12px;
+    }
+    .fields i {
+        top: 34px;
+        right: 10px;
+    }
+    .inline span {
+        font-size: 12px;
+    }
+    .inline a{
+        font-size: 12px;
+    }
+    .fields button{
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+    .dont-account p {
+        font-size: 14px;
+    }
+    .fields p {
+        color: #fff;
+        margin-top: 0px;
+        padding: 4px 5px;
+        font-family: "Roboto Regular";
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .middle-container {
+         width: 340px!important;
+         height: 445px;
+         left: 49%;
+    }
+    .form-section {
+        margin-top: 15px;
+        width: 230px;
+        position: absolute;
+        right: 11rem;
+    }
+    .form-items h4{
+        font-size: 14px;
+        margin-top: 0;
+        top:0;
+    }
+    .cancel i{
+        font-size: 20px;
+    }
+    .cancel{
+        position: absolute;
+        right: 10px;
+    }
+    .fields label{
+        font-size: 14px;
+    }
+    .fields input{
+        padding: 6px 6px;
+        font-size: 12px;
+    }
+    .fields i {
+        top: 34px;
+        right: 10px;
+    }
+    .inline span {
+        font-size: 12px;
+    }
+    .inline a{
+        font-size: 12px;
+    }
+    .fields button{
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+    .dont-account p {
+        font-size: 12px;
+    }
+    .fields p {
+        color: #fff;
+        margin-top: 0px;
+        padding: 4px 5px;
+        font-family: "Roboto Regular";
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .middle-container {
+        width: 288px!important;
+        height: 445px;
+        left: 50%;
+    }
+    .form-section {
+        margin-top: -7px;
+        width: 200px;
+        position: absolute;
+        right: 14rem;
+    }
+    .forgot span {
+        background-color: #fff;
+        color: #000;
+        font-size: 12px;
+        padding: 2px 11px;
+        padding-top: 5px;
+        border: 2px solid #10414b61;
+        border-radius: 4px;
+        margin: 10px 0;
+        font-weight: 700;
+    }
+    .forgot h3 {
+        color: #fff;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .forgot p {
+        color: #fff;
+        font-size: 10px;
+    }
+    .fields label {
+        font-size: 12px;
+    }
+    .polocies span {
+        color: #fff!important;
+        font-size: 11px;
+        align-items: center;
+    }
+    .fields input[type="text"]{
+        padding: 4px 12px;
+    }
+    .bx-low-vision:before {
+        content: "\eb51";
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    .fields i {
+        color: #ffffff5f;
+        font-size: 11px;
+        margin-top: -3px;
+    }
+
+    .carousel {
+        margin: 0px 12px;
+        height: 230px;
+        padding-left: 8px;
+    }
+    .carousel img {
+        border-radius: 10px;
+        height: 194px;
+    }
+    
+}
+

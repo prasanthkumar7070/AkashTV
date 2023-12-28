@@ -65,7 +65,7 @@ const Billing = () => {
                         </tr>
                     </tbody>
                 </table>
-                <a href='d'>FAQ & Tutorial</a>
+                <p className='faq'>FAQ & Tutorial</p>
             </div>
         </div>
     )

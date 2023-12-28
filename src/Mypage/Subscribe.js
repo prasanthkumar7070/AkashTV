@@ -55,203 +55,203 @@ const Subscribe = () => {
                     {[...Array(visibleBoxes)].map((_, index) => (
                         <div key={index} className="content">
                             <div className='row chanels'>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/1.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/2.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/3.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/4.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/5.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/12.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/7.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/8.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/9.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/10.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/5.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/5.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/1.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/7.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/11.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/12.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/13.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/14.png' alt='img' />
                                     </div>
                                 </div>
 
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/15.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/16.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/17.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/2.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/3.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/4.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/8.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/10.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/15.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/16.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/4.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/12.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/8.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/9.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/13.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/17.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/11.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/3.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/2.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/9.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/1.png' alt='img' />
                                     </div>
                                 </div>
-                                <div className='col-md-1 col-sm-3 col-4'>
+                                <div className='col-md-1 col-sm-4 col-4'>
                                     <div className='channel-log'>
                                         <img src='../assets/images/10.png' alt='img' />
                                     </div>
@@ -265,22 +265,23 @@ const Subscribe = () => {
 
                 <div className='Loadmore'>
                     {visibleBoxes < 2 && (
-                        <a href="#" id="loadMore" onClick={handleLoadMore} className='nav-items'>
-                            <div className='bottom mt-3'>
+                       
+                            <div className='bottom  nav-items'>
                                 <div className='view-more'>
-                                    <a href='d'>FAQ & Tutorial</a>
+                                    <p className='faq'>FAQ & Tutorial</p>
+                                    <div id="loadMore" onClick={handleLoadMore}>
                                     <p>View more<i className='bx bx-chevron-right'></i></p>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
                     )}
 
                     {visibleBoxes >= 2 && (
                         <span id="loadMore" className="noContent">
-                            <div className='view-more'>
-                                <a href='d'>FAQ & Tutorial</a>
-                                <p>View more<i className='bx bx-chevron-right'></i></p>
-                            </div>
+                           <div className='view-more'>
+                                    <p className='faq'>FAQ & Tutorial</p>
+                                    <p>No more<i className='bx bx-chevron-right'></i></p>
+                                </div>
                         </span>
                     )}
                 </div>

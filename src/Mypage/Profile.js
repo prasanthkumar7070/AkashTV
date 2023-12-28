@@ -40,9 +40,7 @@ const Profile = () => {
 
                 <div className='note'>
                     <p>Note: if any of your account imformation is wrong, please immediatly contact 16442 to update..</p>
-                    <span>
-                        <a href='sd'>FAQ and tutorial</a>
-                    </span>
+                   <p className='faq'>FAQ & Tutorial</p>
                 </div>
             </div>
         </div>

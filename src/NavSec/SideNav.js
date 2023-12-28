@@ -14,8 +14,8 @@ const SideNav = () => {
           <h5>Home</h5>
         </div>
         <div className='menu-links'>
-          <i className='bx bx-search'></i>
-          <h5>Search</h5>
+        <i class='bx bx-support'></i>
+          <h5>Support</h5>
         </div>
         <div className='menu-links'>
           <i className='bx bxs-notepad'></i>

@@ -271,6 +271,7 @@ input:nth-of-type(5):checked~main#carousel {
 .note a {
     text-decoration: none;
     margin-left: -25px;
+    color: #2019f1;
 }
 
 .accounts-section {
@@ -434,12 +435,14 @@ input:nth-of-type(5):checked~main#carousel {
     margin-right: -7px;
 }
 
-.noContent p{
-color: grey !important;
-}
 .noContent .view-more{
     margin-top: 18px!important;
 }
+.noContent p:nth-child(2){
+    color: rgb(108, 107, 107)!important;
+    }
+
+
 
 .items button:hover {
     border: none !important;
@@ -483,15 +486,17 @@ list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px!important;
 }
 
-.view-more a {
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: -15px;
+.faq{
+    color: #2019f1!important;
+    font-size: 16px!important;
+    cursor: pointer;
 }
-
-
+.nav-items{
+    margin-top: 18px!important;
+}
 .view-more p {
     color: #fff;
     font-size: 16px;
