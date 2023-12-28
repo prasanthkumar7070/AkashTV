@@ -200,7 +200,9 @@
         width: 250px;
         margin-bottom: 16px;
     }
-
+    .flex .col-md-1 {
+        width: 25%;
+    }
     .left-foot {
         margin-left: 5px;
     }

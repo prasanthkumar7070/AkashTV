@@ -150,7 +150,7 @@
   display: block;
   position: relative;
 }
-
+                    
 .fields input[type="text"],
 .fields input[type="password"]  {
   width: 100%;

@@ -185,7 +185,7 @@ const Createpin = () => {
 
                 <div className='fields polocies'>
                   <input type='checkbox' />
-                  <span> Check here to indicate that you have read,understood
+                  <span> Check here to indicate that you have read, understood
                     and agree to our "Polocies"
                   </span>
                 </div>
