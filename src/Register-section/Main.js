@@ -1,6 +1,7 @@
 import React from 'react'
 import './Register.css'
 import './Mediaquery.css'
+import Home from '../Components/Home'
 // import Login from './Login'
 const Main = ({ setPopup }) => {
     return (

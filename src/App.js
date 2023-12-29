@@ -17,9 +17,9 @@ function App() {
     <div>
       <BrowserRouter>
         <TopNav />
-        <ProfileTabs />
+        <Home />
         <Routes>
-          {/* <Route path='/' element={  <Home />} /> */}
+          <Route path='/' element={  <ProfileTabs />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signin' element={<Signin />} />
           <Route path='/otp' element={<Otp />} />
