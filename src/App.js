@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
 import Login from './Register-section/Login';
 import Signin from './Register-section/Signin';
-import Main from './Register-section/Main';
 import Otp from './Register-section/Otp';
 import Createpin from './Register-section/Createpin';
 import Success from './Register-section/Success';
@@ -19,7 +18,7 @@ function App() {
         <TopNav />
         <Home />
         <Routes>
-          <Route path='/' element={  <ProfileTabs />} />
+          <Route path='/profile' element={  <ProfileTabs />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signin' element={<Signin />} />
           <Route path='/otp' element={<Otp />} />

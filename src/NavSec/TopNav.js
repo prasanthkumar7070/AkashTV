@@ -29,9 +29,10 @@ const TopNav = () => {
           </button>
           <div
             className="collapse navbar-collapse right"
-            id="navbarSupportedContent" npm start
+            id="navbarSupportedContent"
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
             <form className="d-flex custom-nav" role="search">
               <ul className="top-ul">
                 <li>
@@ -49,6 +50,7 @@ const TopNav = () => {
                     </select>
                   </div>
                 </li>
+                
                 <li>
                 <div className="icon">
                   <i className='bx bx-search'></i>

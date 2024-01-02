@@ -200,9 +200,7 @@
         width: 250px;
         margin-bottom: 16px;
     }
-    .flex .col-md-1 {
-        width: 25%;
-    }
+
     .left-foot {
         margin-left: 5px;
     }
@@ -349,5 +347,12 @@
 @media only screen and (max-width: 399px) {
     .subscribe h4 {
         font-size: 12px;
+    }
+}
+@media only screen and (max-width:320px){
+    .nav-tabs {
+        width: 237px;
+        margin-bottom: 16px;
+        margin-left: 34px;
     }
 }

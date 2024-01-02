@@ -1,0 +1,93 @@
+.why-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.why-text h1 {
+  color: #fff;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+
+.why-text p {
+  color: #fff;
+  font-size: 16px;
+  width: 650px;
+  position: relative;
+  left: 20%;
+}
+
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  border: none;
+  background-color: transparent !important;
+  margin-left: 30px;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background: transparent linear-gradient(180deg, #222C85 0%, #11164300 100%) 0% 0% no-repeat padding-box;
+}
+
+.card .back {
+  background: transparent linear-gradient(180deg, #489CF2 0%, #489CF266 52%, #489CF200 100%) 0% 0% no-repeat padding-box;
+  transform: rotateY(180deg);
+  opacity: 1;
+}
+
+.card-container {
+  cursor: pointer;
+  perspective: 600;
+  position: relative;
+  height: 350px;
+}
+
+.card-logo {
+  width: 100px;
+  height: 80px;
+  position: relative;
+  margin: auto;
+  top: 20px;
+}
+
+.card-logo img {
+  width: 100%;
+}
+
+.card-text {
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.card-text p {
+  margin-top: 2.2rem;
+  font-size: 18px;
+}
+
+.card-text h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: -13px;
+}
+
+.card-text span{
+  font-size: 13px;
+}
+
+.cards{
+ width: 220px;
+}
