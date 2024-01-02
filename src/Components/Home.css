@@ -71,15 +71,16 @@
   text-align: center;
   color: #fff;
   padding: 5px;
+  font-family: "Roboto";
 }
 
 .card-text p {
   margin-top: 2.2rem;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .card-text h1 {
-  font-size: 22px;
+  font-size: 20px;
   text-transform: uppercase;
   margin-top: -13px;
 }
@@ -90,4 +91,43 @@
 
 .cards{
  width: 220px;
+}
+
+
+/* -------------- Picture Quality Styles ------------ */
+.img-wrapper{
+  margin-top: 4rem;
+}
+#root > div > div:nth-child(2) > div.img-wrapper > div > button > div > div:nth-child(1){
+  width: 0px!important;
+}
+
+#root > div > div:nth-child(2) > div.img-wrapper > div > button > div > div:nth-child(3){
+  width: 0px!important;
+}
+
+
+
+#root > div > div:nth-child(2) > div.img-wrapper > div > button > div > div.__rcs-handle-button > div:nth-child(1){
+    border-top: 0px solid transparent!important;
+    border-right: 0px solid !important;
+     border-bottom: 0px solid transparent!important;
+}
+
+#root > div > div:nth-child(2) > div.img-wrapper > div > button > div > div.__rcs-handle-button > div:nth-child(2){
+  border-top: 0px solid transparent!important;
+  border-right: 0px solid!important;
+  border-bottom: 0px solid transparent!important;
+}
+
+#root > div > div:nth-child(2) > div.img-wrapper > div > button > div > div.__rcs-handle-button{
+  width: 80px!important;
+  height: 80px !important;
+  overflow: hidden!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  background-size: cover!important;
+    background: url(../images/drag-btn.svg)!important;
+    /* width: 100px!important;
+    height: 100px!important; */
 }
