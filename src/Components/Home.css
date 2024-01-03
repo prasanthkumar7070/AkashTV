@@ -95,9 +95,7 @@
 
 
 /* -------------- Picture Quality Styles ------------ */
-.img-wrapper{
-  margin-top: 4rem;
-}
+
 #root > div > div:nth-child(2) > div.img-wrapper > div > button > div > div:nth-child(1){
   width: 0px!important;
 }
@@ -112,6 +110,13 @@
     border-top: 0px solid transparent!important;
     border-right: 0px solid !important;
      border-bottom: 0px solid transparent!important;
+     width: 120px!important;
+     background: url(../images/drag-btn.svg)!important;
+     height: 120px!important;
+     background-repeat: no-repeat!important;
+     background-position: center!important;
+     background-size: cover!important;
+     
 }
 
 #root > div > div:nth-child(2) > div.img-wrapper > div > button > div > div.__rcs-handle-button > div:nth-child(2){
@@ -125,11 +130,14 @@
   background-repeat: no-repeat!important;
   background-position: center!important;
   background-size: cover!important;
-  background: url(../images/drag-btn.svg)!important;
   background-repeat: no-repeat!important;
   backdrop-filter: blur(0px)!important;
   margin: auto;
+  width: 150px!important;
+  height: 150px!important;
   border-width: 0px!important;
   box-shadow: none!important;
   border-radius: none!important;
+  background-color: transparent!important;
 }
+

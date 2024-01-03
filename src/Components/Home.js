@@ -150,11 +150,11 @@ const Home = () => {
 
       <div className='img-wrapper'>
         <ReactCompareSlider className='slide'
-          itemOne={<ReactCompareSliderImage src="" 
-          srcSet="https://cdnhost.akashbd.net/assets/images/picture-quality-overlay.jpg?v=7.0.5" alt="Image one" />}
+          itemOne={<ReactCompareSliderImage src='../Assets/Images/low.png' 
+          srcSet="../Assets/Images/low.png" alt="Image one" />}
           
-          itemTwo={<ReactCompareSliderImage src="" 
-          srcSet="https://cdnhost.akashbd.net/assets/images/picture-quality-bg.jpg?v=7.0.5" alt="Image two" />}
+          itemTwo={<ReactCompareSliderImage src="../Assets/Images/hd.png" 
+          srcSet="../Assets/Images/hd.png" alt="Image two" />}
         />
       </div>
       <Tabs/>

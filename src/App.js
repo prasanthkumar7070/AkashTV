@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <TopNav />
         <Routes>
-          <Route path='/' element={   <Home />}/>
+          <Route path='/' element={<Home />}/>
           <Route path='/profile' element={  <ProfileTabs />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signin' element={<Signin />} />
