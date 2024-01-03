@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from '../Carousel'
 import "./Home.css"
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import Tabs from './Tabs'
 
 const Home = () => {
   return (
@@ -149,10 +150,14 @@ const Home = () => {
 
       <div className='img-wrapper'>
         <ReactCompareSlider className='slide'
-          itemOne={<ReactCompareSliderImage src="" srcSet="https://cdnhost.akashbd.net/assets/images/picture-quality-overlay.jpg?v=7.0.5" alt="Image one" />}
-          itemTwo={<ReactCompareSliderImage src="" srcSet="https://cdnhost.akashbd.net/assets/images/picture-quality-bg.jpg?v=7.0.5" alt="Image two" />}
+          itemOne={<ReactCompareSliderImage src="" 
+          srcSet="https://cdnhost.akashbd.net/assets/images/picture-quality-overlay.jpg?v=7.0.5" alt="Image one" />}
+          
+          itemTwo={<ReactCompareSliderImage src="" 
+          srcSet="https://cdnhost.akashbd.net/assets/images/picture-quality-bg.jpg?v=7.0.5" alt="Image two" />}
         />
       </div>
+      <Tabs/>
     </div>
   )
 }
