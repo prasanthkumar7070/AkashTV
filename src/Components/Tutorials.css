@@ -97,3 +97,62 @@ cursor:pointer;
   font-size:20px;
   margin-left:-5px;
 }
+
+.download-section{
+  margin-top: 5rem;
+}
+/* .back-drop{
+  width: 400px;
+  height: 150px;
+  background: transparent linear-gradient(269deg, #489CF2C9 0%, #0076FE 51%, #4895F600 100%) 0% 0% no-repeat padding-box;
+  border-radius: 0px 128px 128px  0px;
+} */
+
+.downlaod-banner{
+  width: 600px;
+  height: 700px;
+}
+.downlaod-banner img{
+  width: 100%;
+}
+
+.download-app {
+  position: relative;
+  top: 15%;
+  left: 13%;
+}
+
+.download-app h3{
+  color: #fff;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.recharge-account{
+  margin-top: 20px;
+}
+.recharge-account i{
+  color: #fff;
+  font-size: 23px;
+}
+.recharge-account p{
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.goto-store{
+  display: flex;
+  margin-top: 5px;
+  margin-left: -8px;
+}
+
+.app-sec{
+  width: 200px;
+  height: 100px;
+margin: 0;
+cursor: pointer;
+}
+
+.app-sec img{
+  width: 100%;
+}
