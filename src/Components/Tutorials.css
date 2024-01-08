@@ -1,0 +1,99 @@
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+
+.Tutorial-cards{
+  margin-left: 8rem!important;
+}
+.slick-next {
+  position: absolute;
+  right: 30px!important;
+  color: #fff!important;
+}
+.t-card{
+  background-color: white;
+  min-height: 200px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.card-img{
+  width: 100%!important;
+  height: 157px;
+  background-color: #107dfc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-img img{
+  width: 100%;
+}
+
+.card-data {
+  padding: 13px 16px 0px;
+}
+
+.card-data h3{
+  font-size: 18px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.card-data p{
+  font-size: 14px;
+  
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 28px!important;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-slide{
+   width: 355px!important;
+  }
+  .slick-prev {
+    right: 58px!important;
+    rotate: inherit!important;
+    border: 0!important;
+    top: 100%!important;
+    left: auto!important;
+    margin-top: 20px;
+}
+
+.slick-next{
+  top: 100%!important;
+  margin-top: 20px;
+}
+
+.akash-headers{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top: 3rem;
+}
+.akash-headers h1{
+  color:#fff;
+  font-size:24px;
+  margin-left:8rem;
+}
+.view-tutorials{
+color:#fff;
+display:flex;
+margin-bottom:-18px;
+margin-right:10px;
+cursor:pointer;
+
+}
+.view-tutorials p{
+  font-size:15px;
+}
+.view-tutorials i{
+  font-size:20px;
+  margin-left:-5px;
+}

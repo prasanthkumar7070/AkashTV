@@ -3,6 +3,8 @@ import Carousel from '../Carousel'
 import "./Home.css"
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import Tabs from './Tabs'
+import Tutorials from './Tutorials';
+import Download from './Download';
 
 const Home = () => {
   return (
@@ -156,8 +158,29 @@ const Home = () => {
           itemTwo={<ReactCompareSliderImage src="../Assets/Images/hd.png" 
           srcSet="../Assets/Images/hd.png" alt="Image two" />}
         />
+         <div className='true-akash'>
+             <h1>What is True HD in Akash?</h1>
+             <div className='row'>
+              <div className='col-md-6'>
+                  <div className='hd-logo'>
+                    <img src='https://cdnhost.akashbd.net/assets/images/icons/hq-image.svg?v=7.0.5' alt='logo'/>
+                  </div>
+                  <p>5x Sharper Picture Quality</p>
+              </div>
+
+              <div className='col-md-6'>
+              <div className='hd-logo'>
+                    <img src='https://cdnhost.akashbd.net/assets/images/icons/sound-box-icon.svg?v=7.0.5' alt='logo'/>
+                  </div>
+                  <p>Digital Quality Sound</p>
+              </div>
+             </div>
+             <h4>Slide to experience the difference!</h4>
+         </div>
       </div>
-      <Tabs/>
+      {/* <Tabs/> */}
+      <Tutorials/>
+      {/* <Download/> */}
     </div>
   )
 }
