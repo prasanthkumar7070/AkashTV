@@ -178,7 +178,7 @@ const Home = () => {
              <h4>Slide to experience the difference!</h4>
          </div>
       </div>
-      <Tabs/>
+      {/* <Tabs/> */}
       <Tutorials/>
       <Download/>
     </div>
