@@ -5,6 +5,7 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 import Tabs from './Tabs'
 import Tutorials from './Tutorials';
 import Download from './Download';
+import Ourpartner from './Ourpartner';
 
 const Home = () => {
   return (
@@ -178,9 +179,10 @@ const Home = () => {
              <h4>Slide to experience the difference!</h4>
          </div>
       </div>
-      {/* <Tabs/> */}
+      <Tabs/>
       <Tutorials/>
       <Download/>
+      <Ourpartner/>
     </div>
   )
 }
